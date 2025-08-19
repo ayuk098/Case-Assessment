@@ -6,7 +6,7 @@ Proyek ini adalah landing page untuk kelas **Mastering LinkedIn for Career Growt
 - **CSS3**: Untuk styling dan layout.
 - **Font Awesome**: Untuk ikon.
 - **Google Fonts**: Untuk font styling.
-- **JavaScript**: Untuk interaktivitas (jika ada).
+- **JavaScript**: Untuk interaktivitas.
 
 ## Cara Menjalankan Project
 1. Clone repository ini ke komputer Anda:
