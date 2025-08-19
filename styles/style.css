@@ -270,64 +270,82 @@ footer {
     text-align: center;
 }
 
+/* Pastikan container nggak mepet layar */
+.container {
+    width: 95%;
+    padding: 0 10px;
+}
 
-@media (max-width: 968px) {
+/* Hero Section */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+    }
+
     .hero-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .hero-text {
-        order: 2;
-    }
-    
-    .hero-image {
-        order: 1;
-        margin-bottom: 30px;
+        gap: 20px;
     }
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.2rem;
+    .about-content {
+        padding: 0 15px;
+    }
+
+    .about-text {
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .benefits-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
     
-    .hero p {
-        font-size: 1rem;
+    .benefit-item {
+        padding: 20px 15px;
     }
-    
-    .benefits-grid,
+}
+
+
+@media (max-width: 768px) {
     .testimonials-container {
         grid-template-columns: 1fr;
     }
     
-    .about h2,
-    .benefits h2,
-    .testimonials h2,
+    .testimonial-item {
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
     .final-cta h2 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+    }
+
+    .final-cta p {
+        font-size: 0.95rem;
+        padding: 0 15px;
     }
 }
 
 @media (max-width: 480px) {
-    .hero {
-        padding: 70px 0;
-    }
-    
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-    
-    .cta-button {
-        padding: 12px 30px;
-        font-size: 1rem;
-    }
-    
-    .about,
-    .benefits,
-    .testimonials,
-    .final-cta {
-        padding: 60px 0;
+    footer {
+        font-size: 0.85rem;
+        padding: 20px 10px;
     }
 }
