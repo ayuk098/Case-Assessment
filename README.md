@@ -23,4 +23,4 @@ Proyek ini adalah landing page untuk kelas **Mastering LinkedIn for Career Growt
 
 ## Link Live Demo
 Proyek ini dapat diakses secara langsung melalui tautan berikut:
-[Live Demo](https://ayuk098.github.io/Case-Assessment)
+[Live Demo](https://caseassessmentwahyuramadanimanurung.netlify.app/)
