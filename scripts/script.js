@@ -1,4 +1,4 @@
-// Toggle read more functionality
+
 document.addEventListener('DOMContentLoaded', function() {
     const readMoreBtn = document.querySelector('.read-more-btn');
     const moreText = document.querySelector('.more-text');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Smooth scrolling for anchor links
+   
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
